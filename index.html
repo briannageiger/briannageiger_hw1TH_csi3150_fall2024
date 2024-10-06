@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Portfolio Home page -->
     <title>Portfolio</title>
     <!-- link for favicon -->
-    <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon" />
-</head>
-<body>
-  <!-- Start of header section -->
-  <!-- create the header of the page with the title, subtitle, and navbar -->
-    <header style="display: flex; justify-content: center; align-items: center; text-align: center;">
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Start of header section -->
+    <!-- create the header of the page with the title, subtitle, and navbar -->
+    <header
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      "
+    >
       <div>
         <h1>Hi, my name is Brianna Geiger</h1>
         <h2>This is my portfolio website.</h2>
       </div>
       <!-- Navbar provides links to other pages on the site -->
       <nav>
-        <ul> 
+        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="./html/my_resume.html">Resume</a></li>
           <li><a href="./html/my_fun_facts.html">Fun Facts</a></li>
@@ -30,40 +41,56 @@
     <!-- Start of main content -->
     <main>
       <div>
-          <img src="./assets/img/avatar.png" alt="Avatar picture of myself" height="80" width="80"/>
+        <img
+          src="./assets/img/avatar.png"
+          alt="Avatar picture of myself"
+          height="80"
+          width="80"
+        />
       </div>
       <div>
         <!-- Create idented quote using a blockquote element -->
         <blockquote>
-          <h3>
-            "Do one thing every day that scares you"
-          </h3>
+          <h3>"Do one thing every day that scares you"</h3>
         </blockquote>
       </div>
       <!-- Introduction paragraph with links to other pages -->
       <div>
-        <p>I am currently a student at Oakland University studying computer science. Although I do not have any professional experiences in the field yet, I am hoping to keep working on personal projects to improve my programming skills and gain professional experience through an internship in the next year. My long term goal is to eventually become a software developer. If you would like to know more about me, check out my <a href="./html/my_resume.html">resume</a> and my <a href="./html/my_fun_facts.html">fun facts</a> pages.</p>
+        <p>
+          I am currently a student at Oakland University studying computer
+          science. Although I do not have any professional experiences in the
+          field yet, I am hoping to keep working on personal projects to improve
+          my programming skills and gain professional experience through an
+          internship in the next year. My long term goal is to eventually become
+          a software developer. If you would like to know more about me, check
+          out my <a href="./html/my_resume.html">resume</a> and my
+          <a href="./html/my_fun_facts.html">fun facts</a> pages.
+        </p>
       </div>
       <!-- Show degree progress using a progress bar -->
       <div>
-        <span><b>Degree progress: 131 credits taken/128 credits required</b></span><br>
+        <span
+          ><b>Degree progress: 131 credits taken/128 credits required</b></span
+        ><br />
         <progress id="progress-bar" value="100" max="100"></progress>
       </div>
-      <br><hr><br>
+      <br />
+      <hr />
+      <br />
     </main>
     <!-- End of main content -->
 
     <!-- Start of footer section with email and social media information -->
     <footer>
       <div>
-            <p>
-                <a href="mailto:briannageiger@oakland.edu">Email</a><br>
-                <a href="https://github.com/briannageiger">Github</a><br>
-                <a href="#">LinkedIn</a><br>
-                <a href="#">YouTube</a>
-            </p>
-        </div>
+        <p>
+          <a href="mailto:briannageiger@oakland.edu">Email</a><br />
+          <a href="https://github.com/briannageiger">Github</a><br />
+          <a href="#">LinkedIn</a><br />
+          <a href="#">YouTube</a>
+        </p>
+      </div>
     </footer>
     <!-- End of footer section -->
-</body>
+  </body>
 </html>
